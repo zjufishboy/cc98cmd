@@ -1,0 +1,21 @@
+{
+  "name": "cc98cmd",
+  "version": "1.0.0",
+  "description": "this is a tool to browse the cc98 in your command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cc98"
+  ],
+  "author": "fishstar",
+  "license": "MIT",
+  "bin": {
+    "config98": "index.js",
+    "todayNews": "todayNew.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}

@@ -12,10 +12,10 @@
   "author": "fishstar",
   "license": "MIT",
   "bin": {
-    "config98": "index.js",
-    "todayNews": "todayNew.js"
+    "cc98": "index.js"
   },
   "dependencies": {
+    "keypress": "^0.2.1",
     "node-fetch": "^2.6.0"
   }
 }

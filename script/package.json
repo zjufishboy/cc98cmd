@@ -1,6 +1,6 @@
 {
   "name": "cc98cmd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this is a tool to browse the cc98 in your command line",
   "main": "index.js",
   "scripts": {

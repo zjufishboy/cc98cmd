@@ -17,7 +17,8 @@ const dealWithUserInfo =(userInfo,id)=>{
 //    myprint("green",userInfo.followCount,"\t"+(userInfo.gender===0?"她":"他")+'关注的数量：',"\n")
 }
 dealWithSinglePost =(item,num)=>{
-    myprint("green",item.title,"\t["+num+"]["+item.boardName+"]\t","\n")
+    myprint("blue",item.id,'\t[',']')
+    myprint("green",item.title,"["+num+"]["+item.boardName+"]\t","\n")
 }
 dealWithSinglePostFloor =(item,num)=>{
     console.log("\t--------------------------------------------------")
